@@ -2,10 +2,14 @@ function menuFunction() {
     var x = document.getElementById("myLinks");
     var v = document.getElementById("shop_submenu");
     var u = document.getElementById("social_media_submenu");
+    var t = document.getElementById("submenu_arrows");
+    var s = document.getElementById("submenu_arrows_2");
     if (x.style.display === "block") {
       x.style.display = "none";
       v.style.display = "none";
       u.style.display = "none";
+      t.style.backgroundImage = "url('img/down_arrow.svg')";
+      s.style.backgroundImage = "url('img/down_arrow.svg')";
     } else {
       x.style.display = "block";
     }
