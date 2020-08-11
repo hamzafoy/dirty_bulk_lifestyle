@@ -8,13 +8,14 @@ body {
 }
 
 #header_all {
-    background-color: #ebdc87;
+    background-color: rgba(235,220,135,0.85);
     text-align: center;
     font-family: HoltwoodOneSC-Regular;
     position: fixed;
     overflow: hidden;
     top: 0;
     width: 100%;
+    padding-top: 3vh;
     line-height: 2.25em;
     outline: thick double #8d8451;
     border-top: thick double #8d8451;
@@ -23,24 +24,87 @@ body {
     z-index: 1;
 }
 
-#header_all section {
+.myLogo {
+    font-size: 2.50em;
+    text-decoration: none;
+    padding-bottom: 2vh;
+    color: black;
+}
+
+.menu_title {
+    font-size: 1.25em;
+    letter-spacing: 0.55em;
+}
+
+#mobile_menu_icon {
+    cursor: pointer;
+    padding-bottom: 1vh;
+}
+
+.icon_bars_1,
+.icon_bars_2,
+.icon_bars_3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px auto;
+    transition: 0.3s;
+}
+
+.change .icon_bars_1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 7px) ;
+    transform: rotate(-45deg) translate(-9px, 7px) ;
+}
+
+.change .icon_bars_2 {
+    opacity: 0;
+}
+
+.change .icon_bars_3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -7px) ;
+    transform: rotate(45deg) translate(-8px, -7px) ;
+}
+
+#header_all #myLinks {
+    display: none;
     font-family: Poppins-Light;
     font-weight: bolder;
     color: #d54062;
 }
 
-#header_all section:nth-child(3) {
-    margin-top: 2vh;
-    margin-bottom: 3vh;
+#header_all a {
+    display: block;
+    margin: 2vh 0;
+}
+
+#myLinks a:hover {
+    color: #7f263a;
+}
+
+aside {
+    background-image: url("img/down_arrow.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 22px;
+    margin-left: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#shop_submenu,
+#social_media_submenu {
+    display: none;
+    font-size: 0.90em;
 }
 
 #main_container {
-    margin-top: 42vh;
+    margin-top: 45vh;
 }
 
 .main_description {
     font-size: 0.95em;
-    margin-left: 2.5vw;
+    margin-left: 4.5vw;
     margin-right: 3.5vw;
     text-align: justify;
 }
@@ -48,15 +112,15 @@ body {
 .view {
     width: 300px;
     height: 500px;
-    margin: 5vh auto 0;
+    margin: 6.5vh auto 0;
     border: 10px solid #fff;
     overflow: hidden;
     position: relative;
     text-align: center;
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
-    background: #fff url(../images/bgimg.jpg) no-repeat center center
 }
+
 .view .mask, .view .content {
     width: 300px;
     height: 500px;
@@ -111,7 +175,7 @@ body {
 }
 .view-first .mask {
     opacity: 0;
-    background-color: rgba(255,163,108, 0.5); 
+    background-color: rgba(255,163,108, 0.75); 
     transition: all 0.4s ease-in-out;
 }
 .view-first h2 {

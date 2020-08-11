@@ -1,47 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Exercise, exercise, attire, clothing">
-    <meta name="description" content="This website represents a company selling exercise attire & accessories in Louisville, KY.">
+    <meta name="description"
+        content="This website represents a company selling exercise attire & accessories in Louisville, KY.">
     <meta name="author" content="Hamza Foy">
     <title>Dirty Bulk Lifestyle</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    
+
     <div id="header_all">
-        <h1>
-            Dirty Bulk <br/> Lifestyle
-        </h1>
+        <a class="myLogo" href="#home">
+            Dirty Bulk <br /> Lifestyle
+        </a>
 
-        <section>
-            About our DBL Team
-        </section>
+        <section class="menu_title">Menu</section>
+        <div id="mobile_menu_icon" onclick="myFunction(this)">
+        <a href="javascript:void(0);" onclick="menuFunction()">
+            <div class="icon_bars_1"></div>
+            <div class="icon_bars_2"></div>
+            <div class="icon_bars_3"></div>
+        </a>
+    </div>
+    
+        <div id="myLinks">
+            
+            <a>
+                About our DBL Team
+            </a>
 
-        <section>
-            Shop with Us
-        </section>
+            <a id="shop_categories" onclick="subMenuFunction();">
+                Shop with Us
+                <aside id="submenu_arrows">
+                
+                </aside>
+            </a>
+            
+            <div id="shop_submenu">
+                <a>
+                    Men's
+                </a>
+
+                <a>
+                    Women's
+                </a>
+            </div>
+
+            <a id="social_media" onclick="subMenuFunction2();">
+                Socialize with Us
+                <aside id="submenu_arrows_2">
+                
+                </aside>
+            </a>
+
+            <div id="social_media_submenu">
+                <a>
+                    Facebook
+                </a>
+
+                <a>
+                    Instagram
+                </a>
+            </div>
+
+        </div>
+
     </div>
 
     <div id="main_container">
-        
+
         <p class="main_description">
             Our Dirty Bulk Lifestyle brand is more than a logo plastered on a shirt or a design curated on attire.
-            Dirty Bulk Lifestyle is an expression of fitness and exercise that is locally owned and locally present here in Louisville, Kentucky.
-            We sell our merchandise and garner feedback from our customers to provide the greatest sense of comfort for our workout warriors.
-            We love to feature our customers and to do our part in motivating you to keep up with your exercise goals and to maintain the best physique you strive for.
+            Dirty Bulk Lifestyle is an expression of fitness and exercise that is locally owned and locally present here
+            in Louisville, Kentucky.
+            We sell our merchandise and garner feedback from our customers to provide the greatest sense of comfort for
+            our workout warriors.
+            We love to feature our customers and to do our part in motivating you to keep up with your exercise goals
+            and to maintain the best physique you strive for.
         </p>
 
-        <div class="view view-first">  
-            <img src="img/dirtyBulk_1.png" />  
-            <div class="mask">  
-            <h2>Dirty Bulk Gear</h2>  
-            <p>Our exercise clothing is made with 100% polyester and is machine washable.</p>  
-                <a href="#" class="info">Read More</a>  
-            </div>  
-       </div>  
+        <div class="view view-first">
+            <img src="img/dirtyBulk_1.png" />
+            <div class="mask">
+                <h2>Dirty Bulk Gear</h2>
+                <p>Our exercise clothing is made with 100% polyester and is machine washable.</p>
+                <a href="#" class="info">Read More</a>
+            </div>
+        </div>
 
     </div>
 
@@ -49,5 +100,7 @@
         &#169; 2020 Hamza Foy Web Design
     </footer>
 
+    <script src="script.js"></script>
 </body>
+
 </html>
