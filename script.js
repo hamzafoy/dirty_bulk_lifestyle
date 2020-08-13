@@ -1,3 +1,5 @@
+//Navigation Menu JS
+
 function menuFunction() {
     var x = document.getElementById("myLinks");
     var v = document.getElementById("shop_submenu");
