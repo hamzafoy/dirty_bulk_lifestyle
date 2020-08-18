@@ -262,19 +262,33 @@ footer {
 #item_1,
 #item_2,
 #item_3,
-#item_4 {
+#item_4,
+#item_5,
+#item_6,
+#item_7,
+#item_8,
+#item_9,
+#item_10,
+#item_11 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 350px;
     text-align: center;
     max-height: 750px;
-    background-color: #e5e5e5;
+    background-color: #f1e6ab;
     margin: 30px auto;
 }
 
 #item_1 h1,
 #item_2 h1,
 #item_3 h1,
-#item_4 h1 {
+#item_4 h1,
+#item_5 h1,
+#item_6 h1,
+#item_7 h1,
+#item_8 h1,
+#item_9 h1,
+#item_10 h1,
+#item_11 h1 {
     font-size: 24px;
     font-family: HoltwoodOneSC-Regular;
 }
@@ -282,7 +296,14 @@ footer {
 #item_1 p,
 #item_2 p,
 #item_3 p,
-#item_4 p {
+#item_4 p,
+#item_5 p,
+#item_6 p,
+#item_7 p,
+#item_8 p,
+#item_9 p,
+#item_10 p,
+#item_11 p {
     font-size: 18px;
     font-family: Poppins-Light;
 }
@@ -290,13 +311,20 @@ footer {
 #item_1 button,
 #item_2 button,
 #item_3 button,
-#item_4 button {
+#item_4 button,
+#item_5 button,
+#item_6 button,
+#item_7 button,
+#item_8 button,
+#item_9 button,
+#item_10 button,
+#item_11 button {
     border: none;
     outline: 0;
     display: inline-block;
     padding: 12px;
     color: white;
-    background-color: #95a778;
+    background-color: #d54062;
     text-align: center;
     cursor: pointer;
     width: 95%;
@@ -307,13 +335,36 @@ footer {
 #item_1 button:hover,
 #item_2 button:hover,
 #item_3 button:hover,
-#item_4 button:hover {
+#item_4 button:hover,
+#item_5 button:hover,
+#item_6 button:hover,
+#item_7 button:hover,
+#item_8 button:hover,
+#item_9 button:hover,
+#item_10 button:hover,
+#item_11 button:hover {
     opacity: 0.7;
 }
 
 #item_1 img:hover,
 #item_2 img:hover,
 #item_3 img:hover,
-#item_4 img:hover {
+#item_4 img:hover,
+#item_5 img:hover,
+#item_6 img:hover,
+#item_7 img:hover,
+#item_8 img:hover,
+#item_9 img:hover,
+#item_10 img:hover,
+#item_11 img:hover {
     transform: scale(1.1);
+}
+
+#shop_item_4_switch,
+#shop_item_5_switch,
+#shop_item_11_switch {
+    background-color: #e58ca0;
+    color: black;
+    padding: 0 12px;
+    border-radius: 25px;
 }

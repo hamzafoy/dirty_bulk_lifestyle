@@ -1,0 +1,23 @@
+document.getElementById('item_4_switch').addEventListener('mouseenter', function() {
+  
+  if (this.src === "img/apparel/shop_item_4.png") {
+    this.src = "img/apparel/shop_item_4_alt.png";
+  } else if (this.src === "img/apparel/shop_item_4_alt_1.png") {
+    this.src = "img/apparel/shop_item_4_alt_2.png";
+  } else if (this.src === "img/apparel/shop_item_4_alt_3.png") {
+    this.src = "img/apparel/shop_item_4_alt_4.png"
+  }
+  
+});
+
+document.getElementById('item_4_switch').addEventListener('mouseleave', function() {
+  
+  if (this.src === "img/apparel/shop_item_4_alt.png") {
+    this.src = 'img/apparel/shop_item_4.png';
+  } else if (this.src === "img/apparel/shop_item_4_alt_2.png") {
+    this.src = "img/apparel/shop_item_4_alt_1.png";
+  } else if (this.src === "img/apparel/shop_item_4_alt_4.png") {
+    this.src = "img/apparel/shop_item_4_alt_3.png"
+  }
+
+});
