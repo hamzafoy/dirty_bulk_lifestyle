@@ -44,3 +44,13 @@ function subMenuFunction2() {
 function myFunction(x) {
     x.classList.toggle("change");
 }
+
+//Shop Menu Functions
+
+document.getElementById('item_3_switch').addEventListener('mouseenter', function() {
+  this.src = 'img/apparel/shop_item_3_alt.png';
+});
+
+document.getElementById('item_3_switch').addEventListener('mouseleave', function() {
+  this.src = 'img/apparel/shop_item_3.png';
+});

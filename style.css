@@ -239,7 +239,7 @@ footer {
     font-size: 1.15em;
 }
 
-/*--- SUB PAGE MOBILE VERSION ---*/
+/*--- ABOUT US MOBILE VERSION ---*/
 
 #about_us_container {
     margin-top: 45vh;
@@ -247,7 +247,73 @@ footer {
 
 .about_us_description {
     font-size: 0.95em;
+    margin-top: 24px;
     margin-left: 4.5vw;
     margin-right: 3.5vw;
     text-align: justify;
+}
+
+/*--- SHOP PAGE MOBILE VERSION ---*/
+
+#shop_container {
+    margin-top: 44vh;
+}
+
+#item_1,
+#item_2,
+#item_3,
+#item_4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    text-align: center;
+    max-height: 750px;
+    background-color: #e5e5e5;
+    margin: 30px auto;
+}
+
+#item_1 h1,
+#item_2 h1,
+#item_3 h1,
+#item_4 h1 {
+    font-size: 24px;
+    font-family: HoltwoodOneSC-Regular;
+}
+
+#item_1 p,
+#item_2 p,
+#item_3 p,
+#item_4 p {
+    font-size: 18px;
+    font-family: Poppins-Light;
+}
+
+#item_1 button,
+#item_2 button,
+#item_3 button,
+#item_4 button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    background-color: #95a778;
+    text-align: center;
+    cursor: pointer;
+    width: 95%;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+#item_1 button:hover,
+#item_2 button:hover,
+#item_3 button:hover,
+#item_4 button:hover {
+    opacity: 0.7;
+}
+
+#item_1 img:hover,
+#item_2 img:hover,
+#item_3 img:hover,
+#item_4 img:hover {
+    transform: scale(1.1);
 }
