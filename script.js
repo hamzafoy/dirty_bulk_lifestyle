@@ -106,16 +106,30 @@ function changeShopItemFour() {
   img.src = this.value;
 }
 
-function flipShopItemFour() {
+document.getElementById('item_4_switch').addEventListener('mouseenter', function() {
+  
+  var x = document.getElementById('shop_item_4_switch')
 
-  var x = document.getElementById('item_4_switch');
-
-  if (x.src === "img/apparel/shop_item_4.png") {
-    x.src = "img/apparel/shop_item_4_alt.png";
-  } else if (x.src === "img/apparel/shop_item_4_alt_1.png") {
-    x.src = "img/apparel/shop_item_4_alt_2.png";
-  } else if (x.src === "img/apparel/shop_item_4_alt_3.png") {
-    x.src = "img/apparel/shop_item_4_alt_4.png"
+  if (x.value === "img/apparel/shop_item_4.png") {
+    this.src = "img/apparel/shop_item_4_alt.png";
+  } else if (x.value === "img/apparel/shop_item_4_alt_1.png") {
+    this.src = "img/apparel/shop_item_4_alt_2.png";
+  } else if (x.value === "img/apparel/shop_item_4_alt_3.png") {
+    this.src = "img/apparel/shop_item_4_alt_4.png"
   }
   
-}
+});
+
+document.getElementById('item_4_switch').addEventListener('mouseleave', function() {
+  
+  var x = document.getElementById('shop_item_4_switch')
+
+  if (x.value === "img/apparel/shop_item_4.png") {
+    this.src = "img/apparel/shop_item_4.png";
+  } else if (x.value === "img/apparel/shop_item_4_alt_1.png") {
+    this.src = "img/apparel/shop_item_4_alt_1.png";
+  } else if (x.value === "img/apparel/shop_item_4_alt_3.png") {
+    this.src = "img/apparel/shop_item_4_alt_3.png"
+  }
+  
+});
