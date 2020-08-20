@@ -259,6 +259,23 @@ footer {
     margin-top: 44vh;
 }
 
+#shop_label_men {
+    padding: 24px 0;
+    text-align: center;
+    background-color: #d54062;
+    color: white;
+    font-family: Poppins-Light;
+}
+
+#shop_label_women {
+    padding: 24px 0;
+    margin: 24px 0 48px;
+    text-align: center;
+    background-color: #d54062;
+    color: white;
+    font-family: Poppins-Light;
+}
+
 #item_1,
 #item_2,
 #item_3,

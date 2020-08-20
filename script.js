@@ -115,7 +115,8 @@ document.getElementById("shop_item_4_switch").onchange = changeShopItemFour;
 
 function changeShopItemFour() {
   var img = document.getElementById("item_4_switch");
-  img.src = this.value;
+  var z = document.getElementById("shop_item_4_switch");
+  img.src = z.value;
 }
 
 document.getElementById('item_4_switch').addEventListener('mouseenter', function() {
@@ -151,7 +152,8 @@ document.getElementById("shop_item_5_switch").onchange = changeShopItemFive;
 
 function changeShopItemFive() {
   var img = document.getElementById("item_5_switch");
-  img.src = this.value;
+  var z = document.getElementById("shop_item_5_switch");
+  img.src = z.value;
 }
 
 document.getElementById('item_5_switch').addEventListener('mouseenter', function() {
@@ -187,9 +189,9 @@ document.getElementById('item_5_switch').addEventListener('mouseleave', function
 });
 
 
-document.getElementById("shop_item_11_switch").onchange = changeShopItemFive;
+document.getElementById("shop_item_11_switch").onchange = changeShopItemEleven;
 
-function changeShopItemFive() {
+function changeShopItemEleven() {
   var img = document.getElementById("item_11_switch");
   img.src = this.value;
 }
