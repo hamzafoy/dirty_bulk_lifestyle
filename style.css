@@ -13,15 +13,27 @@ body {
 
 /*--- NAV MENU MOBILE VERSION ---*/
 
+#logo_main {
+    padding-top: 24px;
+    display: block;
+    width: 175px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#website_menu_items {
+    display: none;
+}
+
 #header_all {
-    background-color: rgba(235,220,135,0.85);
+    background-color: rgba(194, 173, 51, 0.85);
     text-align: center;
     font-family: HoltwoodOneSC-Regular;
     position: fixed;
     overflow: hidden;
     top: 0;
     width: 100%;
-    padding-top: 3vh;
+    padding-top: 1vh;
     line-height: 2.25em;
     outline: thick double #8d8451;
     border-top: thick double #8d8451;
@@ -33,13 +45,7 @@ body {
 .myLogo {
     font-size: 2.50em;
     text-decoration: none;
-    padding-bottom: 2vh;
     color: black;
-}
-
-.menu_title {
-    font-size: 1.25em;
-    letter-spacing: 0.55em;
 }
 
 #mobile_menu_icon {
@@ -226,6 +232,10 @@ aside {
     transition-delay: 0.2s;
 }
 
+#louskyline {
+    display: none;
+}
+
 /*--- FOOTER MOBILE VERSION ---*/
 
 footer {
@@ -384,4 +394,169 @@ footer {
     color: black;
     padding: 0 12px;
     border-radius: 25px;
+}
+
+#osman_graphics {
+    width: 400px;
+    height: 360px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+@media (min-width: 600px) {
+
+#logo_main {
+    display: inline-block;
+    height: 150px;
+    width: 275px;
+}
+
+#website_menu_items {
+    display: inline-flex;
+    align-self: center;
+    padding: 0 40px;
+}
+
+#website_menu_items a {
+    color: black;
+}
+
+#header_all {
+    background-color: rgba(194, 173, 51, 0.85);
+    text-align: center;
+    font-family: HoltwoodOneSC-Regular;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    padding-top: 3vh;
+    line-height: 2.25em;
+    outline: thick double #8d8451;
+    border-top: thick double #8d8451;
+    border-bottom: 2px solid #bcb06c;
+    box-shadow: inset 0 2px #bcb06c;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.myLogo {
+    font-size: 2.50em;
+    text-decoration: none;
+    color: black;
+}
+
+.menu_title {
+    font-size: 1.25em;
+    letter-spacing: 0.55em;
+    display: none;
+}
+
+#mobile_menu_icon {
+    display: none;
+}
+
+.icon_bars_1,
+.icon_bars_2,
+.icon_bars_3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px auto;
+    transition: 0.3s;
+}
+
+.change .icon_bars_1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 7px) ;
+    transform: rotate(-45deg) translate(-9px, 7px) ;
+}
+
+.change .icon_bars_2 {
+    opacity: 0;
+}
+
+.change .icon_bars_3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -7px) ;
+    transform: rotate(45deg) translate(-8px, -7px) ;
+}
+
+#header_all a {
+    display: block;
+    margin: 1vh 0;
+    text-decoration: none;
+}
+
+#myLinks {
+    display: none;
+    font-family: Poppins-Light;
+    font-weight: bolder;
+    color: #d54062;
+}
+
+#myLinks a:hover {
+    color: #7f263a;
+}
+
+aside {
+    background-image: url("img/down_arrow.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 22px;
+    margin-left: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#shop_submenu,
+#social_media_submenu {
+    display: none;
+    font-size: 0.90em;
+}
+
+#social_media_submenu a,
+#myLinks a {
+    color: #d54062;
+}
+
+#louskyline {
+    display: none;
+}
+
+}
+
+@media (min-width: 1100px) {
+
+#main_container {
+    margin-bottom: 75px;
+}
+
+#main_container_img {
+    display: flex;
+    justify-content: space-around;
+}
+
+#louskyline {
+    width: 850px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 1045px;
+    right: 250px;
+}
+
+#workout_image {
+    object-position: 100% 50%;
+}
+
+#osman_graphics {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
 }
