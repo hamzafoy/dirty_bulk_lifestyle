@@ -403,6 +403,15 @@ footer {
     display: block;
 }
 
+#louskyline {
+    width: 350px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -36px;
+}
+
 
 
 
@@ -523,7 +532,12 @@ aside {
 }
 
 #louskyline {
-    display: none;
+    width: 600px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -36px;
 }
 
 }
@@ -540,12 +554,12 @@ aside {
 }
 
 #louskyline {
-    width: 850px;
-    height: 100px;
+    width: 1000px;
+    height: 150px;
     display: block;
-    position: absolute;
-    top: 1045px;
-    right: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -36px;
 }
 
 #workout_image {
