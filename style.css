@@ -122,12 +122,20 @@ aside {
     margin-top: 300px;
 }
 
+#slideshow_buttons {
+    display: flex;
+    justify-content: center;
+}
+
 .slides {
     height: 300px;
     width: 300px;
     margin: 0 auto;
-    margin-bottom: 72px;
     display: none;
+}
+
+#slideshow {
+    margin-bottom: 72px;
 }
 
 #men-women-links {
