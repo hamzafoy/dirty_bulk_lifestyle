@@ -119,7 +119,31 @@ aside {
 /*--- MAIN PAGE MOBILE VERSION ---*/
 
 #main_container {
-    margin-top: 45vh;
+    margin-top: 300px;
+}
+
+.slides {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    display: none;
+}
+
+#men-women-links {
+    text-align: center;
+    font-family: HoltwoodOneSC-Regular;
+    font-size: 12px;
+    letter-spacing: 1.25px;
+}
+
+#genderLogos {
+    width: 150px;
+    height: 150px;
+}
+
+#genderLogos:first-of-type {
+    margin-right: 12px;
 }
 
 .main_description {
@@ -245,7 +269,7 @@ footer {
     width: 100%;
     padding: 25px 0;
     text-align: center;
-    font-family: Times;
+    font-family: Poppins-Light;
     font-size: 1.15em;
 }
 
@@ -540,6 +564,18 @@ aside {
     margin-bottom: -36px;
 }
 
+#genderLogos {
+    width: 250px;
+    height: 250px;
+}
+
+#men-women-links {
+    text-align: center;
+    font-family: HoltwoodOneSC-Regular;
+    font-size: 18px;
+    letter-spacing: 1.25px;
+}
+
 }
 
 @media (min-width: 1100px) {
@@ -571,6 +607,18 @@ aside {
     height: 800px;
     margin: 0 auto;
     display: block;
+}
+
+#genderLogos {
+    width: 250px;
+    height: 250px;
+}
+
+#men-women-links {
+    text-align: center;
+    font-family: HoltwoodOneSC-Regular;
+    font-size: 21px;
+    letter-spacing: 1.25px;
 }
 
 }
