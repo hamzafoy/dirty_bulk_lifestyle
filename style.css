@@ -127,6 +127,20 @@ aside {
     justify-content: center;
 }
 
+#slideshow_buttons button {
+    width: 150px;
+    color: white;
+    background-color: #00A1CB;
+    border: 3px double white;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+#slideshow_buttons button:hover {
+    color: black;
+    background-color: #a1cb00;
+}
+
 .slides {
     height: 300px;
     width: 300px;
@@ -136,11 +150,17 @@ aside {
 
 #slideshow {
     margin-bottom: 72px;
+    text-align: center;
+    font-family: Poppins-Light;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1.25px;
 }
 
 #men-women-links {
     text-align: center;
-    font-family: HoltwoodOneSC-Regular;
+    font-family: Poppins-Light;
+    font-weight: bold;
     font-size: 12px;
     letter-spacing: 1.25px;
 }
@@ -152,6 +172,10 @@ aside {
 
 #genderLogos:first-of-type {
     margin-right: 12px;
+}
+
+#genderLogos:last-of-type {
+    margin-left: 12px;
 }
 
 .main_description {
@@ -579,7 +603,16 @@ aside {
 
 #men-women-links {
     text-align: center;
-    font-family: HoltwoodOneSC-Regular;
+    font-family: Poppins-Light;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1.25px;
+}
+
+#slideshow {
+    text-align: center;
+    font-family: Poppins-Light;
+    font-weight: bold;
     font-size: 18px;
     letter-spacing: 1.25px;
 }
@@ -624,7 +657,17 @@ aside {
 
 #men-women-links {
     text-align: center;
-    font-family: HoltwoodOneSC-Regular;
+    font-family: Poppins-Light;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 1.25px;
+    margin-bottom: 72px;
+}
+
+#slideshow {
+    text-align: center;
+    font-family: Poppins-Light;
+    font-weight: bold;
     font-size: 21px;
     letter-spacing: 1.25px;
 }
