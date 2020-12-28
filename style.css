@@ -127,8 +127,15 @@ aside {
     justify-content: center;
 }
 
+.slides {
+    height: 250px;
+    width: 350px;
+    margin: 0 auto;
+    display: none;
+}
+
 #slideshow_buttons button {
-    width: 302px;
+    width: 175px;
     color: white;
     background-color: #00A1CB;
     border: 3px double white;
@@ -139,13 +146,6 @@ aside {
 #slideshow_buttons button:hover {
     color: black;
     background-color: #a1cb00;
-}
-
-.slides {
-    height: 500px;
-    width: 600px;
-    margin: 0 auto;
-    display: none;
 }
 
 #slideshow {
@@ -615,6 +615,22 @@ aside {
     font-weight: bold;
     font-size: 18px;
     letter-spacing: 1.25px;
+}
+
+.slides {
+    height: 500px;
+    width: 600px;
+    margin: 0 auto;
+    display: none;
+}
+
+#slideshow_buttons button {
+    width: 302px;
+    color: white;
+    background-color: #00A1CB;
+    border: 3px double white;
+    border-radius: 5px;
+    transition: all 0.5s;
 }
 
 }
