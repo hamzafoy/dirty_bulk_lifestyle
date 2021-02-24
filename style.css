@@ -616,7 +616,7 @@ aside {
 
 /*--- NEW SLIDESHOW ---*/
 
-/* Position the image container (needed to position the left and right arrows) */
+/* Image Container */
   .gallery {
     position: relative;
     width: 95%;
@@ -624,7 +624,7 @@ aside {
     padding-bottom: 200px;
   }
   
-  /* Hide the images by default */
+  /* Focused Image Container */
   .mySlides {
     display: none;
   }
@@ -632,13 +632,12 @@ aside {
   .mySlides img {
       height: 600px;
   }
-  
-  /* Add a pointer when hovering over the thumbnail images */
+
   .cursor {
     cursor: pointer;
   }
   
-  /* Next & previous buttons */
+  /* Forward/Backward Buttons */
   .prev,
   .next {
     cursor: pointer;
@@ -655,19 +654,17 @@ aside {
     -webkit-user-select: none;
   }
   
-  /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
   
-  /* Number text (1/3 etc) */
+  /* Numerical Ordering */
   .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -676,7 +673,7 @@ aside {
     top: 0;
   }
   
-  /* Container for image text */
+  /* Caption Container */
   .caption-container {
     text-align: center;
     background-color: #222;
@@ -684,19 +681,18 @@ aside {
     color: white;
   }
   
+  /* Thumbnail Containers */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
   .demo {
     opacity: 0.5;
     height: 200px;
