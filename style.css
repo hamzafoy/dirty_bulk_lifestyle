@@ -630,8 +630,7 @@ aside {
   }
 
   .mySlides img {
-      height: 750px;
-      width: 50%;
+      height: 600px;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
